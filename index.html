@@ -16,57 +16,65 @@
 
 <body class="home-page">
         <div id="header-container"></div>
-        <!-- CONTENT --> 
-        <div class="content container">
-            <div id="promo-slider" class="slider flexslider rounded">
-                <ul class="slides">
-                    <li>
-                        <picture>
-                            <source srcset="assets/images/slides/slide-1.webp" type="image/webp">
-                            <img src="assets/images/slides/slide-1.webp" alt="" loading="lazy" decoding="async">
-                          </picture>
-                        <p class="flex-caption">
-                            <span class="main rounded" >Our Managements</span>
-                            <br />
-                            <span class="secondary clearfix rounded" >Here is our Shyamolian Managements Stuffs</span>
-                        </p>
-                    </li>
-                    <li>
-                       <picture>
-                        <source srcset="assets/images/slides/slide-2.webp" type="image/webp">
-                        <img src="assets/images/slides/slide-2.webp" alt="" loading="lazy" decoding="async">
-                      </picture> 
-                        <p class="flex-caption">
-                            <span class="main rounded" >Placement Conference</span>
-                            <br />
-                            <span class="secondary clearfix rounded" >Presided by Principal M.A. Sattar With Ex Education Minister Nurul Islam Nahid.</span>
-                        </p>
-                    </li>
-                    <li>
-                        <picture>
-                            <source srcset="assets/images/slides/slide-3.webp" type="image/webp">
-                            <img src="assets/images/slides/slide-3.webp" alt="" loading="lazy" decoding="async">
-                          </picture>  
-                        <p class="flex-caption">
-                            <span class="main rounded" >Our Computer Lab</span>
-                            <br />
-                            <span class="secondary clearfix rounded" >This is our institute Computer Lab. Student Work here all time.</span>
-                        </p>
-                    </li>
-                    <li>
-                       <picture>
-                        <source srcset="assets/images/slides/slide-4.webp" type="image/webp">
-                        <img src="assets/images/slides/slide-4.webp" alt="" loading="lazy" decoding="async">
-                      </picture>
-                        <p class="flex-caption">
-                            <span class="main rounded" >Our Main Campus</span>
-                            <br />
-                            <span class="secondary clearfix rounded" >location: WRRV+W8C, R140, Mandari, Sadar- Lakshmipur</span>
-                        </p>
-                    </li>
-                </ul>
-                <!--slides-->
-            </div>
+        <!-- CONTENT -->
+        <div class="">
+            <section class="intro rounded" style="margin-left: 90px; margin-right: 90px;">
+                <div class="carousel-controls">
+                    <a class="prev rounded-pill" href="#intro-carousel" data-slide="prev"><i class="fas fa-caret-left"></i></a>
+                    <a class="next rounded-pill" href="#intro-carousel" data-slide="next"><i class="fas fa-caret-right"></i></a>
+                </div>
+                <div class="section-content">
+                    <div id="intro-carousel" class="intro-carousel carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item item active">
+                                <div class="source" style="margin-left: 90px;">
+                                    <p class="people"><span class="name">Our Managements</span><br /><span class="title">Here is our Shyamolian Managements Staff</span></p>
+                                    <picture>
+                                        <source media="(min-width: 1000px)" srcset="assets/images/slides/slide-1.webp" type="image/webp">
+                                        <source media="(min-width: 550px)" srcset="assets/images/slides/slide-1-600.webp" type="image/webp">
+                                        <source media="(min-width: 150px)" srcset="assets/images/slides/slide-1-200.webp" type="image/webp">
+                                        <img decoding="async" loading="lazy" src="assets/images/slides/slide-1-600.jpg" alt="">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="carousel-item item">
+                                <div class="source" style="margin-left: 90px;">
+                                    <p class="people"><span class="name">Placement Conference</span><br /><span class="title"> Presided by Principal M.A. Sattar With Ex Education Minister Nurul Islam Nahid.</span></p>
+                                    <picture>
+                                        <source media="(min-width: 1000px)" srcset="assets/images/slides/slide-2.webp" type="image/webp">
+                                        <source media="(min-width: 550px)" srcset="assets/images/slides/slide-2-600.webp" type="image/webp">
+                                        <source media="(min-width: 150px)" srcset="assets/images/slides/slide-2-200.webp" type="image/webp">
+                                        <img decoding="async" loading="lazy" src="assets/images/slides/slide-2-600.jpg" alt="">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="carousel-item item">
+                                <div class="source" style="margin-left: 90px;">
+                                    <p class="people"><span class="name">Our Computer Lab</span><br /><span class="title">This is our institute Computer Lab. Student Work here all time.</span></p>
+                                    <picture>
+                                        <source media="(min-width: 1000px)" srcset="assets/images/slides/slide-3.webp" type="image/webp">
+                                        <source media="(min-width: 550px)" srcset="assets/images/slides/slide-3-600.webp" type="image/webp">
+                                        <source media="(min-width: 150px)" srcset="assets/images/slides/slide-3-200.webp" type="image/webp">
+                                        <img decoding="async" loading="lazy" src="assets/images/slides/slide-1-600.jpg" alt="">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="carousel-item item">
+                                <div class="source" style="margin-left: 90px;">
+                                    <p class="people"><span class="name">Our Main Campus</span><br /><span class="title">Location: WRRV+W8C, R140, Mandari, Sadar- Lakshmipur</span></p>
+                                    <picture>
+                                        <source media="(min-width: 1000px)" srcset="assets/images/slides/slide-4.webp" type="image/webp">
+                                        <source media="(min-width: 550px)" srcset="assets/images/slides/slide-4-600.webp" type="image/webp">
+                                        <source media="(min-width: 150px)" srcset="assets/images/slides/slide-4-200.webp" type="image/webp">
+                                        <img decoding="async" loading="lazy" src="assets/images/slides/slide-4-600.jpg" alt="">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </section>
             <!--flexslider-->
             <section class="promo box box-dark rounded">     
 	            <div class="row">  
@@ -397,7 +405,7 @@
             </section>
             </div>
         </div>
-    </div>
+
     
     <!-- FOOTER --> 
     <div id="footer-container"></div>
