@@ -47,8 +47,10 @@
                             <article class="course-item">
                                <p class="featured-image page-row">
                                 <picture>
-                                    <source srcset="assets/images/courses/course-1.webp" type="image/webp">
-                                    <img class="img-fluid rounded-lg" src="assets/images/courses/course-1.jpg" alt="Description de l'image" loading="lazy" decoding="async" style="max-width: 100%; height: auto;">
+                                    <source media="(min-width: 750px)" srcset="assets/images/courses/course-1.webp" type="image/webp">
+                                    <source media="(min-width: 500px)" srcset="assets/images/courses/course-1-500.webp" type="image/webp">
+                                    <source media="(min-width: 200px)" srcset="assets/images/courses/course-1-200.webp" type="image/webp">
+                                    <img class="img-fluid rounded-lg" src="assets/images/courses/course-1-500.jpg" alt="Description de l'image" loading="lazy" decoding="async" style="max-width: 100%; height: auto;">
                                   </picture>                                   
                               </p>  
                                 <div class="page-row box box-border rounded">

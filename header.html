@@ -26,8 +26,11 @@
                         <h1 class="logo col-md-4 col-12">
                             <a href="index.html">
                                 <picture>
-                                  <source srcset="assets/images/logo.webp" type="image/webp">
-                                  <img id="logo" src="assets/images/logo.webp" alt="Logo" width="200" height="100" loading="lazy">
+                                    <source media="(min-width: 900px)" srcset="assets/images/logo.webp" type="image/webp">
+                                    <source media="(min-width: 200px)" srcset="assets/images/logo-200.webp" type="image/webp">
+                                    <source media="(min-width: 100px)" srcset="assets/images/logo-100.webp" type="image/webp">
+                                    <source media="(min-width: 50px)" srcset="assets/images/logo-50.webp" type="image/webp">
+                                  <img id="logo" src="assets/images/logo-100.jpg" alt="Logo" width="200" height="100" loading="lazy">
                                 </picture>
                               </a>      
                         </h1>
